@@ -5,7 +5,7 @@ public class Spawner : MonoBehaviour
     public float TimeToSpawn;
     public float MinPosition, MaxPosition;
     public GameObject PreFab;
-    private float timer;
+    private float _timer;
 
 
     // Update is called once per frame
@@ -22,7 +22,7 @@ public class Spawner : MonoBehaviour
         }
         else
         {
-            timer -= Time.deltaTime;
+            _timer -= Time.deltaTime;
         }
     }
 }
