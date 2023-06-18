@@ -850,7 +850,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &1421475381
@@ -927,15 +927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c9a658ca50fb34da0be9f4eb20eed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  text: {fileID: 606634451}
   _maxX: 2.25
   _minX: -2.25
   _speed: 200
-  _rigidbody: {fileID: 0}
-  ScorePoint: 0
-  _screenBounds: {x: 0, y: 0}
-  _objectWidth: 0
-  _objectHeight: 0
+  text: {fileID: 606634451}
 --- !u!114 &1421475385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -982,7 +977,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   text: {fileID: 434815121}
-  score: 0
 --- !u!4 &1560646012
 Transform:
   m_ObjectHideFlags: 0
@@ -1033,7 +1027,6 @@ MonoBehaviour:
   MinPosition: 2.5
   MaxPosition: -2.5
   PreFab: {fileID: 516898162788653152, guid: 9c6de70e33357cb4b985f7492d95b4e2, type: 3}
-  _timer: 0
 --- !u!4 &1592017512
 Transform:
   m_ObjectHideFlags: 0
@@ -1065,7 +1058,6 @@ MonoBehaviour:
   MinPosition: 2.5
   MaxPosition: -2.5
   PreFab: {fileID: 762103083889642543, guid: 9d9374bcd732d9742a00ff5e46ceb98c, type: 3}
-  _timer: 0
 --- !u!114 &1592017514
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1082,7 +1074,6 @@ MonoBehaviour:
   MinPosition: 2.5
   MaxPosition: -2.5
   PreFab: {fileID: 5038286577918163699, guid: 202b220cf0bfc1844ae2d7c18215ee45, type: 3}
-  _timer: 0
 --- !u!1 &1670932780
 GameObject:
   m_ObjectHideFlags: 0
