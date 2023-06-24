@@ -927,10 +927,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3c9a658ca50fb34da0be9f4eb20eed1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  text: {fileID: 606634451}
   _maxX: 2.25
   _minX: -2.25
   _speed: 200
-  text: {fileID: 606634451}
 --- !u!114 &1421475385
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -944,8 +944,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   fuelSize: 25
-  fuelUsage: 0.1
-  currentFuel: 0
+  fuelUsage: 0.3
   fuelProgressBar: {fileID: 1254217808}
 --- !u!1 &1560646010
 GameObject:
